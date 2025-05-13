@@ -150,7 +150,7 @@ When the CPU utilization reached 60%, the dynamic scaling policy was triggered.
 
 ## 📝 Task 4: Deployment Method Comparison Report
 
-In this section, we summarize and compare the two deployment methods used in this project — **EC2 Auto Scaling Group** and **ECS Fargate** — in terms of their **ease of setup**, **cost**, and **scalability**. This comparison helps determine the best option for running Dockerized applications with dynamic traffic requirements.
+In this section, we summarize and compare the two deployment methods in this project — **EC2 Auto Scaling Group** and **ECS Fargate** — in terms of their **ease of setup**, **cost**, and **scalability**. This comparison helps determine the best option for running Dockerized applications with dynamic traffic requirements.
 
 ---
 
