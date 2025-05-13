@@ -129,6 +129,11 @@ My settings were:
 
 In the screenshots below, you can see my configuration and the tests I performed.
 
+Demo app is accessible ✅:
+
+![image](https://github.com/user-attachments/assets/968b28ec-b1e3-4a79-a3d1-b09b1c9404ab)
+
+
 When the CPU utilization reached 60%, the dynamic scaling policy was triggered.
 
 ![image](https://github.com/user-attachments/assets/3a482ac2-ffde-45e9-aec6-9f3e6f5d3a2f)
