@@ -99,7 +99,7 @@ docker run -d -p 80:3000 --name demoapp bencuk/nodejs-demoapp
 - **Scheme**: Internet-facing  
 - **IP address type**: IPv4  
 - **Listeners**: HTTP on port 80  
-- **Availability Zones**: Select the same as in the Auto Scaling Group  
+- **Availability Zones**: Selected the same as in the Auto Scaling Group  
 - **Target Group**:  
   - **Name**: Week2Task1ALBTG  
   - **Target type**: Instance  
@@ -121,11 +121,31 @@ To simulate high traffic and observe the Auto Scaling Group’s behavior, used *
 
 My settings were:
 
+![image](https://github.com/user-attachments/assets/d2e334d1-6fcf-4e33-a016-b262884d8f46)
+
 ---
 
 ## 5. Report
 
 In the screenshots below, you can see my configuration and the tests I performed.
+
+When the CPU utilization reached 60%, the dynamic scaling policy was triggered.
+
+![image](https://github.com/user-attachments/assets/3a482ac2-ffde-45e9-aec6-9f3e6f5d3a2f)
+
+![image](https://github.com/user-attachments/assets/fe7cb8cd-2127-4ae5-b0f0-fba6b927a3f6)
+
+![image](https://github.com/user-attachments/assets/07ce1b96-f5dd-4c86-bc0f-afdcfdfef02a)
+
+![image](https://github.com/user-attachments/assets/0d72a5ba-9475-4a6a-93eb-9c3cafd1988d)
+
+---
+
+![image](https://github.com/user-attachments/assets/3cfa5714-2b9f-40a5-b415-e31c4699df11)
+
+![image](https://github.com/user-attachments/assets/e0dc451b-c1b6-400d-890b-8f4802767637)
+
+![image](https://github.com/user-attachments/assets/1024ab23-8626-47fa-8ab6-43c40a825b7b)
 
 
 ## 📝 Task 4: Deployment Method Comparison Report
