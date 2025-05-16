@@ -203,7 +203,26 @@ In this section, we summarize and compare the two deployment methods in this pro
 
 **Recommendation**:  
 For fast-growing startups and microservices that prioritize **speed of deployment**, **cost-effectiveness**, and **automatic scaling**, **ECS Fargate** is the preferred option.  
-However, **EC2 Auto Scaling Groups** are better suited for scenarios requiring **more control**, **custom dependencies**, or **persistent compute environments**.
+
+---
+
+# Task 3. Speed up the application with a CDN
+
+I conducted tests and received a HIT from CloudFront for all paths except /tools and /monitor. I also attached the PageSpeed statistics.
+
+In my case, the tests showed no significant difference in performance between ALB and CloudFront.
+
+![image](https://github.com/user-attachments/assets/1a905803-b048-4a07-8385-bcd260238347)
+
+![image](https://github.com/user-attachments/assets/03d2a45c-5dc7-4ecb-9407-49abd3a070a3)
+
+![image](https://github.com/user-attachments/assets/aebe64c3-ccdc-4e52-b41c-e3b4a97a6bdb)
+
+![image](https://github.com/user-attachments/assets/c5fead0c-a810-4f78-aaa0-509ea0f60221)
+
+![image](https://github.com/user-attachments/assets/522417cc-c333-4f48-ab88-c4df5ad7416b)
+
+![image](https://github.com/user-attachments/assets/31e7285c-55f0-439a-bc4b-02c153f8104a)
 
 ---
 
